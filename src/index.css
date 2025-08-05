@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Pro Health Skincare Hospital Design System
-Primary: Soft blush pink background, coral salmon accents, sage green trust elements
-Typography: Playfair Display (headers), Inter (body)
-All colors MUST be HSL.
-*/
+
 
 @layer base {
   :root {
