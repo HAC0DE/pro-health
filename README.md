@@ -1,73 +1,142 @@
-# Welcome to your Lovable project
+# 🏥 Clinic Website - Built with Next.js
 
-## Project info
+A modern, responsive, SEO-optimized website for a medical clinic built using **Next.js**. This project aims to provide a smooth, user-friendly experience for patients looking to explore clinic services, book appointments, and learn more about medical staff and facilities.
 
-**URL**: https://lovable.dev/projects/a12e3290-3f37-4a2d-b537-04fbfdc84f48
+---
 
-## How can I edit this code?
+## 🔍 Overview
 
-There are several ways of editing your application.
+This website includes:
 
-**Use Lovable**
+- Responsive and accessible UI
+- Dynamic pages for doctors, services, and departments
+- Online appointment booking form
+- Contact page with Google Maps integration
+- SEO-optimized using `next/head`
+- Fast performance and SSR support
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a12e3290-3f37-4a2d-b537-04fbfdc84f48) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Demo
 
-**Use your preferred IDE**
+[🔗 Live Demo](https://your-deployed-url.com)  
+(Screenshots or GIFs can be added here)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ✨ Features
 
-Follow these steps:
+- 💡 Server-side rendering with Next.js
+- 📱 Fully responsive (mobile-first)
+- 🗓️ Appointment form with validation
+- 👨‍⚕️ Doctor and department profiles
+- 🧾 Services listing with filtering
+- 📍 Google Maps embed
+- 🧠 SEO friendly pages with Open Graph tags
+- 🎨 Styled with Tailwind CSS (or other framework)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🛠️ Tech Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: Tailwind CSS / SCSS / Styled Components
+- **Form Validation**: React Hook Form + Yup
+- **Icons**: React Icons / Heroicons
+- **Deployment**: Vercel / Netlify / Custom Server
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+---
+
+## 🧾 Folder Structure
+
+```
+clinic-website/
+├── public/                # Static files (images, favicon, etc.)
+├── components/            # Reusable components (Navbar, Footer, etc.)
+├── pages/                 # Next.js pages (index, about, contact, etc.)
+│   ├── index.tsx
+│   ├── about.tsx
+│   ├── contact.tsx
+│   └── services.tsx
+├── styles/                # Global styles or Tailwind config
+├── utils/                 # Utility functions
+├── data/                  # Static data like doctors.json
+├── hooks/                 # Custom React hooks
+├── .env.local             # Environment variables
+├── next.config.js         # Next.js configuration
+├── tailwind.config.js     # Tailwind CSS configuration
+└── README.md
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## ⚙️ Getting Started
 
-**Use GitHub Codespaces**
+### 1. Clone the Repo
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+git clone https://github.com/your-username/clinic-website.git
+cd clinic-website
+```
 
-## What technologies are used for this project?
+### 2. Install Dependencies
 
-This project is built with:
+```bash
+npm install
+# or
+yarn install
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### 3. Run the Development Server
 
-## How can I deploy this project?
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-Simply open [Lovable](https://lovable.dev/projects/a12e3290-3f37-4a2d-b537-04fbfdc84f48) and click on Share -> Publish.
+Visit [http://localhost:3000](http://localhost:3000) to view the app.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 🔐 Environment Variables
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Create a `.env.local` file in the root and add the following (if required):
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```env
+NEXT_PUBLIC_API_URL=https://your-api-url.com
+NEXT_PUBLIC_GOOGLE_MAPS_KEY=your-api-key
+```
+
+---
+
+## 📦 Deployment
+
+You can deploy the site using platforms like:
+
+- [Vercel](https://vercel.com/) (Recommended for Next.js)
+- [Netlify](https://www.netlify.com/)
+- [AWS / DigitalOcean / Lightsail](https://aws.amazon.com/lightsail/)
+
+Just push your code to GitHub and connect your repo to the platform of your choice.
+
+---
+
+## 🧑‍💻 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📄 License
+
+[MIT](LICENSE)
+
+---
+
+## 🙌 Acknowledgements
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Hook Form](https://react-hook-form.com/)
+- [Heroicons](https://heroicons.com/)
